@@ -82,3 +82,9 @@ export default function Home() {
     </HomeContainer>
   )
 }
+
+export const getServeSideProps = async () => {
+  return {
+    props: {},
+  }
+}
